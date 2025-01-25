@@ -2,7 +2,7 @@
 $host = 'localhost';       // Endereço do servidor MySQL (geralmente "localhost" em ambiente local)
 $user = 'root';            // Usuário do MySQL (padrão "root" no XAMPP)
 $password = '';            // Senha do MySQL (geralmente em branco no XAMPP)
-$database = 'corretores_db'; // Nome do banco de dados que você criou no phpMyAdmin
+$database = 'imovel_guide'; // Nome do banco de dados que você criou no phpMyAdmin
 
 // Criando a conexão com o MySQL
 $conn = new mysqli($host, $user, $password, $database);
